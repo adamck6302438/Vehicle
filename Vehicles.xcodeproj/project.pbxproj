@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DB2E0C7227E62FE0084A5C2 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2E0C6227E62FE0084A5C2 /* Car.m */; };
 		F5961A2217DD013A008D39EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5961A2117DD013A008D39EA /* Foundation.framework */; };
 		F5961A2417DD013A008D39EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5961A2317DD013A008D39EA /* CoreGraphics.framework */; };
 		F5961A2617DD013A008D39EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5961A2517DD013A008D39EA /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DB2E0C5227E62FE0084A5C2 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		0DB2E0C6227E62FE0084A5C2 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		F5961A1E17DD013A008D39EA /* Vehicles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vehicles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5961A2117DD013A008D39EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F5961A2317DD013A008D39EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -127,6 +130,8 @@
 				F5961A3717DD013A008D39EA /* VehicleListTableViewController.m */,
 				F5961A3917DD013A008D39EA /* VehicleDetailViewController.h */,
 				F5961A3A17DD013A008D39EA /* VehicleDetailViewController.m */,
+				0DB2E0C5227E62FE0084A5C2 /* Car.h */,
+				0DB2E0C6227E62FE0084A5C2 /* Car.m */,
 				F5961A3C17DD013A008D39EA /* Images.xcassets */,
 				F5961A2817DD013A008D39EA /* Supporting Files */,
 			);
@@ -219,6 +224,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -259,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB2E0C7227E62FE0084A5C2 /* Car.m in Sources */,
 				F5961A3217DD013A008D39EA /* AppDelegate.m in Sources */,
 				F5961A3817DD013A008D39EA /* VehicleListTableViewController.m in Sources */,
 				F5961A2E17DD013A008D39EA /* main.m in Sources */,
@@ -466,6 +473,7 @@
 				F5961A5517DD013A008D39EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5961A5617DD013A008D39EA /* Build configuration list for PBXNativeTarget "VehiclesTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +482,7 @@
 				F5961A5817DD013A008D39EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
